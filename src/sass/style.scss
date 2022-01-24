@@ -1,0 +1,23 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/bootstrap-grid.min";
+@import "libs/fonts";
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/animation";
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+@import "blocks/media";
